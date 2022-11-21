@@ -24,3 +24,19 @@ LoggedIn.play = async ({ canvasElement }) => {
   const loginButton = await canvas.getByRole('button', { name: /Log in/i });
   await userEvent.click(loginButton);
 };
+
+export const LoggedInThenLoggedOut = Template.bind({});
+LoggedInThenLoggedOut.play = async (context) => {
+  await LoggedIn.play(context);
+  const canvas = within(context.canvasElement);
+  const logoutButton = await canvas.getByRole('button', { name: /Log out/i });
+  await userEvent.click(logoutButton);
+};
+
+export const SignUp = Template.bind({});
+// More on interaction testing: https://storybook.js.org/docs/react/writing-tests/interaction-testing
+SignUp.play = async ({ canvasElement }) => {
+  const canvas = within(canvasElement);
+  const signUpButton = await canvas.getByRole('button', { name: /Sign up/i });
+  await userEvent.click(signUpButton);
+};
