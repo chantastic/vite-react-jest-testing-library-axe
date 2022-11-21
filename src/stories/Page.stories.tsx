@@ -1,5 +1,6 @@
 import { ComponentMeta } from "@storybook/react";
 import { within, userEvent } from "@storybook/testing-library";
+import { expect } from "@storybook/jest";
 import { Page } from "./Page";
 
 export default {
@@ -20,6 +21,8 @@ export const LoggedIn = {
     });
 
     await userEvent.click(loginButton);
+
+    expect(await canvas.getByText("Jane Doe"));
   },
 };
 
@@ -33,6 +36,12 @@ export const LoggedInThenLoggedOut = {
     });
 
     await userEvent.click(logoutButton);
+
+    expect(
+      await canvas.getByRole("button", {
+        name: /Log in/i,
+      })
+    );
   },
 };
 
@@ -42,6 +51,9 @@ export const SignUp = {
     const signUpButton = await canvas.getByRole("button", {
       name: /Sign up/i,
     });
+
     await userEvent.click(signUpButton);
+
+    expect(await canvas.getByText("Jane Doe"));
   },
 };
