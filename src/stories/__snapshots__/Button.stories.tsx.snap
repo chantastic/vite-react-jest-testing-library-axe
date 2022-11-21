@@ -9,7 +9,24 @@ exports[`Example/Button BackgroundColor smoke-test 1`] = `
 </button>
 `;
 
+exports[`Example/Button BackgroundColor smoke-test 2`] = `
+<button type="button"
+        class="storybook-button storybook-button--medium storybook-button--secondary"
+        style="background-color: rgb(192, 255, 238);"
+>
+  Button
+</button>
+`;
+
 exports[`Example/Button Large smoke-test 1`] = `
+<button type="button"
+        class="storybook-button storybook-button--large storybook-button--secondary"
+>
+  Button
+</button>
+`;
+
+exports[`Example/Button Large smoke-test 2`] = `
 <button type="button"
         class="storybook-button storybook-button--large storybook-button--secondary"
 >
@@ -33,7 +50,23 @@ exports[`Example/Button Secondary smoke-test 1`] = `
 </button>
 `;
 
+exports[`Example/Button Secondary smoke-test 2`] = `
+<button type="button"
+        class="storybook-button storybook-button--medium storybook-button--secondary"
+>
+  Button
+</button>
+`;
+
 exports[`Example/Button Small smoke-test 1`] = `
+<button type="button"
+        class="storybook-button storybook-button--small storybook-button--secondary"
+>
+  Button
+</button>
+`;
+
+exports[`Example/Button Small smoke-test 2`] = `
 <button type="button"
         class="storybook-button storybook-button--small storybook-button--secondary"
 >
