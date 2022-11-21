@@ -1777,7 +1777,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@istanbuljs/load-nyc-config@npm:^1.0.0":
+"@istanbuljs/load-nyc-config@npm:^1.0.0, @istanbuljs/load-nyc-config@npm:^1.1.0":
   version: 1.1.0
   resolution: "@istanbuljs/load-nyc-config@npm:1.1.0"
   dependencies:
@@ -2517,6 +2517,17 @@ __metadata:
     react-dom:
       optional: true
   checksum: a4f86332686b5681366ad1f1eebb50cb9939ce3424ade64c0043b94827df15a34da0190101c8dc9a2b4b9af67fafd9d3fb50a5b98ff7a24fed6a37a2f8f37f27
+  languageName: node
+  linkType: hard
+
+"@storybook/addon-coverage@npm:^0.0.5":
+  version: 0.0.5
+  resolution: "@storybook/addon-coverage@npm:0.0.5"
+  dependencies:
+    "@types/babel__core": ^7.1.19
+    babel-plugin-istanbul: ^6.1.1
+    vite-plugin-istanbul: ^3.0.1
+  checksum: 44b9b594ccb2d80dfaf15fb90bd13273e65c2c478d1c049bc23c0a85f7ee79091e2f29293ef90639a51e3a7b94332df75b86bae2a2fb38c26e1d6ff74f2e639a
   languageName: node
   linkType: hard
 
@@ -3735,7 +3746,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__core@npm:^7.1.14":
+"@types/babel__core@npm:^7.1.14, @types/babel__core@npm:^7.1.19":
   version: 7.1.20
   resolution: "@types/babel__core@npm:7.1.20"
   dependencies:
@@ -15935,6 +15946,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vite-plugin-istanbul@npm:^3.0.1":
+  version: 3.0.2
+  resolution: "vite-plugin-istanbul@npm:3.0.2"
+  dependencies:
+    "@istanbuljs/load-nyc-config": ^1.1.0
+    istanbul-lib-instrument: ^5.1.0
+    picocolors: ^1.0.0
+    test-exclude: ^6.0.0
+  checksum: aea513ca21b700e69bf5aeff48dcbbf5792c9eb00ac7adb98fbcaf9a1909e79238e4941eb6f0ac8f632d247f31489388f3aa26ef417eae8f628e645076393510
+  languageName: node
+  linkType: hard
+
 "vite-react-jest-testing-library@workspace:.":
   version: 0.0.0-use.local
   resolution: "vite-react-jest-testing-library@workspace:."
@@ -15942,6 +15965,7 @@ __metadata:
     "@babel/core": ^7.20.2
     "@mdx-js/react": ^1.6.22
     "@storybook/addon-actions": ^6.5.13
+    "@storybook/addon-coverage": ^0.0.5
     "@storybook/addon-docs": ^6.5.13
     "@storybook/addon-essentials": ^6.5.13
     "@storybook/addon-interactions": ^6.5.13

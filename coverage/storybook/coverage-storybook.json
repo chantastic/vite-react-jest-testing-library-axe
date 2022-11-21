@@ -1,0 +1,521 @@
+{
+  "/Users/chan/Code/storybook/vite-react-jest-testing-library/src/stories/Button.tsx": {
+    "path": "/Users/chan/Code/storybook/vite-react-jest-testing-library/src/stories/Button.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 30,
+          "column": 7
+        },
+        "end": {
+          "line": 48,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 37,
+          "column": 2
+        },
+        "end": {
+          "line": 37,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 38,
+          "column": 2
+        },
+        "end": {
+          "line": 45,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 48,
+          "column": 2
+        },
+        "end": {
+          "line": 48,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 30,
+          "column": 19
+        },
+        "end": {
+          "line": 30,
+          "column": 23
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 7
+          },
+          "end": {
+            "line": 30,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 13
+          },
+          "end": {
+            "line": 48,
+            "column": 2
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 23
+          },
+          "end": {
+            "line": 30,
+            "column": null
+          }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": {
+              "line": 30,
+              "column": 23
+            },
+            "end": {
+              "line": 30,
+              "column": null
+            }
+          }
+        ]
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 12
+          },
+          "end": {
+            "line": 31,
+            "column": null
+          }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": {
+              "line": 31,
+              "column": 12
+            },
+            "end": {
+              "line": 31,
+              "column": null
+            }
+          }
+        ]
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 2
+          },
+          "end": {
+            "line": 37,
+            "column": null
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 37,
+              "column": 2
+            },
+            "end": {
+              "line": 37,
+              "column": null
+            }
+          },
+          {
+            "start": {
+              "line": 37,
+              "column": 2
+            },
+            "end": {
+              "line": 37,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 10,
+      "1": 28,
+      "2": 28,
+      "3": 10,
+      "4": 10
+    },
+    "f": {
+      "0": 28
+    },
+    "b": {
+      "0": [
+        18
+      ],
+      "1": [
+        9
+      ],
+      "2": [
+        10,
+        18
+      ]
+    }
+  },
+  "/Users/chan/Code/storybook/vite-react-jest-testing-library/src/stories/Header.tsx": {
+    "path": "/Users/chan/Code/storybook/vite-react-jest-testing-library/src/stories/Header.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 17,
+          "column": 7
+        },
+        "end": {
+          "line": 54,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 17,
+          "column": 79
+        },
+        "end": {
+          "line": 54,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 56,
+          "column": 2
+        },
+        "end": {
+          "line": 56,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 17,
+          "column": 19
+        },
+        "end": {
+          "line": 17,
+          "column": 23
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 7
+          },
+          "end": {
+            "line": 17,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 79
+          },
+          "end": {
+            "line": 54,
+            "column": null
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 6
+          },
+          "end": {
+            "line": 50,
+            "column": null
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 39,
+              "column": 6
+            },
+            "end": {
+              "line": 45,
+              "column": null
+            }
+          },
+          {
+            "start": {
+              "line": 45,
+              "column": 70
+            },
+            "end": {
+              "line": 50,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 5,
+      "1": 9,
+      "2": 5,
+      "3": 5
+    },
+    "f": {
+      "0": 9
+    },
+    "b": {
+      "0": [
+        4,
+        5
+      ]
+    }
+  },
+  "/Users/chan/Code/storybook/vite-react-jest-testing-library/src/stories/Page.tsx": {
+    "path": "/Users/chan/Code/storybook/vite-react-jest-testing-library/src/stories/Page.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 7
+        },
+        "end": {
+          "line": 73,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 37
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "end": {
+          "line": 70,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 16,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 51
+        }
+      },
+      "5": {
+        "start": {
+          "line": 17,
+          "column": 51
+        },
+        "end": {
+          "line": 17,
+          "column": null
+        }
+      },
+      "6": {
+        "start": {
+          "line": 18,
+          "column": 41
+        },
+        "end": {
+          "line": 19,
+          "column": 59
+        }
+      },
+      "7": {
+        "start": {
+          "line": 73,
+          "column": 2
+        },
+        "end": {
+          "line": 73,
+          "column": null
+        }
+      },
+      "8": {
+        "start": {
+          "line": 10,
+          "column": 28
+        },
+        "end": {
+          "line": 10,
+          "column": 37
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 73,
+            "column": 2
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 8
+          },
+          "end": {
+            "line": 16,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 8
+          },
+          "end": {
+            "line": 17,
+            "column": 51
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 51
+          },
+          "end": {
+            "line": 17,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 51
+          },
+          "end": {
+            "line": 17,
+            "column": null
+          }
+        }
+      },
+      "3": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 18,
+            "column": 41
+          },
+          "end": {
+            "line": 18,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 41
+          },
+          "end": {
+            "line": 19,
+            "column": 59
+          }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 1,
+      "5": 0,
+      "6": 0,
+      "7": 2,
+      "8": 4
+    },
+    "f": {
+      "0": 4,
+      "1": 1,
+      "2": 0,
+      "3": 0
+    },
+    "b": {}
+  }
+}
