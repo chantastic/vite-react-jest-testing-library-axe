@@ -39,3 +39,9 @@ Small.args = {
   size: 'small',
   label: 'Button',
 };
+
+export const BackgroundColor = Template.bind({});
+BackgroundColor.args = {
+  backgroundColor: "#C0FFEE",
+  label: 'Button',
+};
